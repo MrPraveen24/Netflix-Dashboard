@@ -1,0 +1,36 @@
+.newRow{
+    padding: 1rem;
+    >h2{
+        font-weight: 400;
+        margin: 0.4rem;
+    }
+}
+.card{
+    width: 200px;
+    height: 260px;
+    cursor: pointer;
+    margin: 0.4rem;
+    transition: transform 0.4s;
+    margin: 0% 2.1% 1% 0%;
+
+    &:hover{
+        transform: translateY(-2px) scale(1.04) ;
+    }
+}
+
+.footer{
+    width: 98.2vw;
+    background-color: black;
+    height: 32vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.4rem;
+}
+.footer>div{
+    display: flex;
+    flex-direction: column;
+}
+.footer>div>span{
+    padding-bottom: 1rem;
+}
